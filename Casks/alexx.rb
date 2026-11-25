@@ -1,8 +1,8 @@
 # alexx-app/homebrew-tap 의 Casks/alexx.rb 원본.
-# prod 릴리즈 워크플로(homebrew job)가 0.3.6·a7e72ed23d845400a14205da2210d3503a361dae672a89757a9733cb02ecf299 을 채워 탭에 푸시한다 — 탭에서 직접 고치지 않는다.
+# prod 릴리즈 워크플로(homebrew job)가 0.3.7·8f5c6ceef909bed1774b7589661b63a114de93eb0e68909cf22582649e12f548 을 채워 탭에 푸시한다 — 탭에서 직접 고치지 않는다.
 cask "alexx" do
-  version "0.3.6"
-  sha256 "a7e72ed23d845400a14205da2210d3503a361dae672a89757a9733cb02ecf299"
+  version "0.3.7"
+  sha256 "8f5c6ceef909bed1774b7589661b63a114de93eb0e68909cf22582649e12f548"
 
   url "https://github.com/alexx-app/alexx-release-desktop/releases/download/prd/desktop/v#{version}/Alexx_#{version}_universal.dmg"
   name "Alexx"
